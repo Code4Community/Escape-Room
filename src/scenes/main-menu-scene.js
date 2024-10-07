@@ -10,14 +10,13 @@ export default class MainMenuScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("sky", skyImage);
-    this.load.audio("title", [titleMP3]);
+    
   }
 
   create() {
     this.sound.play("title", { loop: true });
 
-    this.add.image(400, 300, "sky");
+    this.add.rectangle(200, 150, 300, 200, 0xdadaaa);
 
     this.title = this.add.text(200, 200, "🏃‍♂️🧅 vs. 🤖", {
       // fontFamily: "",
