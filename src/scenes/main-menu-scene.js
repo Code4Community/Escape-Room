@@ -14,6 +14,7 @@ export default class MainMenuScene extends Phaser.Scene {
   }
 
   create() {
+    titleMP3="title";
     this.sound.play("title", { loop: true });
 
     this.add.rectangle(200, 150, 300, 200, 0xdadaaa);
