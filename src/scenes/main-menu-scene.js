@@ -10,7 +10,7 @@ export default class MainMenuScene extends Phaser.Scene {
   }
 
   preload() {
-    
+    this.load.audio("title", [titleMP3]);
   }
 
   create() {
@@ -32,5 +32,5 @@ export default class MainMenuScene extends Phaser.Scene {
     });
   }
 
-  update() { }
+  update() {}
 }
