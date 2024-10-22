@@ -18,12 +18,12 @@ export default class MainMenuScene extends Phaser.Scene {
 
     this.add.rectangle(200, 150, 300, 200, 0xdadaaa);
 
-    this.title = this.add.text(200, 200, "🏃‍♂️🧅 vs. 🤖", {
+    this.title = this.add.text(200, 200, "Big Justice vs. Baby Gronk", {
       // fontFamily: "",
-      fontSize: "64px",
+      fontSize: "32px",
     });
 
-    this.playText = this.add.text(200, 300, "click me to play game", {
+    this.playText = this.add.text(200, 300, "No one will ever click me 🥺👉👈", {
       fontSize: "32px",
     });
     this.playText.setInteractive();
